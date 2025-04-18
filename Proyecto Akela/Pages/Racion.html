@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="codigos.js"></script>
+</head>
+<body>
+
+    <script src="navbar.js"></script>
+
+    <div style="background-color: #D9D9D9; width: 100%; height: 280px; float:left; text-align: justify;">  
+        <h2 style="color:#003F7D; margin-top: 15px; margin-left: 30px; font-size: 60px; font-style: bold;"> ¡Calcula aquí la ración para tu mascota!</h2>
+        <p style="color:#000000; margin-top: 30px; margin-left: 30px; margin-right: 50px; font-size: 22px;">Transforma la alimentación de tu perro con nuestra exclusiva dieta BARF, pensada para todas las razas y tamaños. 100% natural y cargada de vitaminas y oligoelementos esenciales, es el alimento que tu fiel amigo necesita para estar más saludable, lleno de energía y feliz. </p>
+        <p style="color:#000000; margin-top: 30px; margin-left: 30px; font-size: 22px;">¿Te preguntas cuánto debe comer? ¡Te ayudamos a encontrar la dosis perfecta! </p>
+      </div>
+
+      <div style="background-color: #C57D4D; width: 60%; height: 490px; float:left; text-align: center;  margin-top:30px; margin-left: 30px;">  
+        <div class="contenedor">
+            <div class="grupo" style="width: 80%; height: 30%; margin-top: 30px;">
+                <div>
+                    <label for="tipo">Tipo de mascota:</label>
+                    <select id="tipo">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="peso">Peso (Kg):</label>
+                    <input type="number" id="peso" placeholder="Kg">
+                </div>
+            </div>
+            <div class="grupo" style="width: 80%; height: 30%;">
+                <div>
+                    <label for="edad">Edad:</label>
+                    <select id="edad">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="actividad" >Actividad física:</label>
+                    <select id="actividad">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+            </div>
+            <button style="background-color: #C57D4D; color:#ffffff;" type="butto" class="btn btn-primary btn-lg">Calcular</button>
+        </div>
+        </div>
+    
+      </div>
+      
+      <div style="background-color: #003F7D; width: 30%; height: 490px; float:left; text-align: center; margin-left: 30px; margin-top:30px;">  
+        <img src="imgs/Bowl.png" width="400px" height="400px" style="margin-left: 2px;">
+        <p style="color: #ffffff; font-size: 20px; margin-bottom: 5px;"> La ración para tu mascota es de: 80g</p>
+        <p style="color: #ffffff; font-size: 20px; margin-top: 5px;"> Te recomendamos este producto: Premium Food </p>
+      </div>
+
+      <div style="padding-top: 50px;"></div>
+      
+      <script src="footer.js"></script>
+
+
+</body>
+</html>

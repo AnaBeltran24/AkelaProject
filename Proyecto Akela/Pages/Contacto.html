@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="codigos.js"></script>
+</head>
+<body>
+
+<script src="navbar.js"></script>
+<div class="container my-5">
+    <div style="width: 50%; height: 550px; margin-left: 180px; margin-top: 20px; text-align: center;">
+      <div class="card" style="display: block; margin-top:20px; width: 650px; height:550px; padding: 20px; background-color: #c07d4f; border-radius: 20px; color: white; text-align: center; font-family: sans-serif;">
+          <h1 style="margin-bottom: 10px; font-family: Josefin Sans, sans-serif;">¿Necesitas ayuda?</h1>
+          <p style="font-size: 14px; text-align: justify;">Estamos aquí para ayudarte a ofrecer la mejor nutrición a tu mascota. Si tienes preguntas sobre nuestros productos o cómo adaptar la alimentación de tu compañero, no dudes en dejarnos tus datos. ¡Con gusto te ayudaremos!</p>
+          <form>
+            <div class="form-group mb-3" style="width: 50%; padding-right: 10px;">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" style="width: 100%; border-radius: 10px; border: none; padding: 8px;">
+            </div>
+            <div class="form-group mb-3" style="width: 49%;">
+                <label for="phone" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="phone" style="width: 100%; border-radius: 10px; border: none; padding: 8px;">
+            </div>
+            <div class="form-group mb-3" style="width: 50%; padding-right: 10px;">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" style="width: 100%; border-radius: 10px; border: none; padding: 8px;">
+            </div>
+            <div class="form-group mb-3" style="width: 49%;">
+              <label for="petType" class="form-label">Tipo de mascota</label>
+              <select class="form-select" aria-label="Default select example" id="petType" style="width: 100%; border-radius: 10px; border: none; padding: 8px;"> 
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+              </select>
+            </div>
+            <div class="mb-3" style="text-align: left; width: 100%;">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea rows="2" class="form-control" id="message" style="width: 100%; border-radius: 10px; border: none; padding: 8px; height: 80px;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light" style="border-radius: 20px; padding: 8px 20px;">Enviar</button>
+          </form>
+      </div>
+    </div>
+
+    <div style="display: inline-flex; width: 30%; text-align: center; margin-left: 50px;">  
+      <img src="imgs/ContactDog.png" width="720px" height="520px">
+    </div>
+</div>
+
+<script src="footer.js"></script>
+
+</body>
+</html>
